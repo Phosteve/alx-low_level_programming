@@ -1,4 +1,22 @@
-k## Files
+# Functions, nested loops
+		
+
+		
+Project done during **Full Stack Software Engineering studies** at **ALX School**. It aims to learn about header files, functions, loops and nested loops in **C language**.
+		
+
+		
+## Technologies
+		
+* C files are compiled using `gcc 4.8.4`
+		
+* C files are written according to the C90 standard
+		
+* Tested on Ubuntu 14.04 LTS
+		
+
+		
+## Files
 		
 All of the following files are programs written in C:
 		
@@ -41,76 +59,4 @@ All of the following files are programs written in C:
 | `103-fibonacci.c` | Finds and prints the sum of the even-valued terms |
 		
 | `104-fibonacci.c` | Finds and prints the first 98 Fibonacci numbers |
-
-
-
-
-======================================
-
-_putchar.c CODE
-
-
-#include "main.h"
-	#include <unistd.h>
-	/**
-	 * _putchar - writes the character c to stdout
-	 * @c: The character to print
-	 *
-	 * Return: On success 1.
-	 * On error, -1 is returned, and errno is set appropriately.
-	 */
-	int _putchar(char c)
-	{
-		return (write(1, &c, 1));
-	}
-
-
-
-
-
-
-=====================================
-
-
-main.h CODE
-
-
-
-#ifndef main_h
-	#define main_h
-
-
-	int _putchar(char);
-	void print_alphabet(void);
-	void print_alphabet_x10(void);
-	int _islower(int c);
-	int _isalpha(int c);
-	int print_sign(int n);
-	int _abs(int);
-	int print_last_digit(int);
-	void jack_bauer(void);
-	void times_table(void);
-	int add(int, int);
-	void print_to_98(int n);
-	void print_times_table(int n);
-
-
-	#endif
-# Functions, nested loops
-		
-
-		
-Project done during **Full Stack Software Engineering studies** at **ALX School**. It aims to learn about header files, functions, loops and nested loops in **C language**.
-		
-
-		
-## Technologies
-		
-* C files are compiled using `gcc 4.8.4`
-		
-* C files are written according to the C90 standard
-		
-* Tested on Ubuntu 14.04 LTS
-		
-
 
