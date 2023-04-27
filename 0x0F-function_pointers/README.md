@@ -1,3 +1,4 @@
+C - Function pointers
 TASKS
 0. What's my name
 Write a function that prints a name.
@@ -106,4 +107,4 @@ If the number of argument is not the correct one, print Error, followed by a new
 If the number of bytes is negative, print Error, followed by a new line, and exit with the status 2
 
 You do not have to compile with any flags
-200~0x0F. C - Function pointers
+
